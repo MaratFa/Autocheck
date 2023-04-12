@@ -46,7 +46,7 @@ const FriendMessage = (props: FriendMessageType) => {
                 className={s.friendTime}
             >
                 {/*создаёт студент*/}
-                <span>{props.message.message.time}</span>
+                <div>{props.message.message.time}</div>
                 {/**/}
             </div>
         </div>
