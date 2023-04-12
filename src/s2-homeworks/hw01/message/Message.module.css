@@ -5,22 +5,27 @@
 }
 
 .imageAndText {
-    padding: 10px;
-    border-radius: 5px 5px 5px 0;
+    padding: 4px;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
     margin-left: auto; 
     margin-right: 0;
+    background-color: #255aeb;
 }
 
 .imageAndText img {
+    float: right;
     height: 50px;
     width: 50px;
     border-radius: 50%;
+    margin-right: 0px;
 }
 
 .text {
     min-width: 150px;
     max-width: 300px;
     word-wrap: break-word;
+    margin-right: 60px;  
 }
 
 .text:after {
@@ -30,22 +35,23 @@
 }
 
 .name {
-    font-size: 20px;
+    text-align: right;
+    font-size: 18px;
     font-weight: bold;
-    color: #000000;
+    color: #ffffff;
 }
 
 .messageText {
     display: inline_block;
-    font-size: 15px;
-    padding: 10px;
+    font-size: 15px;    
     width: auto;
     color: #ffffff;
-    background-color: rgb(49, 69, 248);
 }
 
-.time {
-    display: flex;
+.time {  
     justify-content: flex-end;
     color: black;
+    font-size: 10px;
+    font-weight: bold;
+    
 }
